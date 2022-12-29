@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "",
+        "email": "",
+        "edad": 12,
+        "colors": ""
+    },
+    {
+        "id": 2,
+        "name": "German",
+        "email": "gg@gmail.com",
+        "edad": "19",
+        "pass": "$2a$12$PRJOIks3BVa.VE2NL67cFOUDtnaglw.B41.wXbjbsUWn2CUDhL2ye",
+        "colors": "#800000",
+        "rol": "usuario"
+    },
+    {
+        "id": 3,
+        "name": "Geronimo",
+        "email": "xx@gmail.com",
+        "edad": "24",
+        "pass": "$2a$12$sIunCeRemLQ0Z1acftIOmu7EwQjv8CshULeL56rQpnlxFPrUk/.4C",
+        "colors": "#800080",
+        "rol": "usuario"
+    }
+]

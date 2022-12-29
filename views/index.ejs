@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <% if (locals.userLogin) { %>
+     <style>
+      :root{
+        --userColor : <%- locals.userLogin.color %>;
+      }
+    </style>
+    <% } %>
+  </head>
+  <% if (locals.userLogin) { %>
+   <body style="background-color: var(--userColor);" >
+  <% }else { %>
+  <body>
+  <% } %>
+  
+
+    <%- include('./partials/header') %>
+
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    
+    <% if (locals.userLogin) { %>
+     <h2><%- locals.userLogin.color %></h2>
+    <% } %>
+
+  </body>
+</html>
